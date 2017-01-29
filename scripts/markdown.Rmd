@@ -1,5 +1,5 @@
 ---
-title: "Workout Wednesday 2017 Week 1"
+title: "Workout Wednesday 2017 Week 3"
 output:
   html_document: default
 ---
