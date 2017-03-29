@@ -2,8 +2,7 @@
 # @created: january 22 2017
 
 # set path, load necessary packages / helper files ------------------------
-setwd("~/Dropbox/data-analysis/03-unemployment/")
-source("scripts/helper.R")
+source("helper.R")
 library("ggplot2")
 
 # load data and prep it a bit ---------------------------------------------

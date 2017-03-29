@@ -1,7 +1,6 @@
 ---
 title: "Workout Wednesday 2017 Week 3"
-output:
-  html_document: default
+output: github_document
 ---
 
 ##### Examining how unemployment varies in the US over time
@@ -13,7 +12,7 @@ One thing I liked about [hrbrmstr](https://rud.is/b/2017/01/18/workout-wednesday
 With this in mind, I thought I'd try to build on their charts by constructing one that show's each state's data unnormalized, *overlaying* this with the national average. In this way, we see each state's raw unemployment figures, as well as a comparison to see how things are going relative to the rest of the country. See below for the chart, and below that for the code that was used to build it. You can access the repo [here](https://github.com/jweinflash/us-unemployment).<br><br>
 
 ```{r echo = FALSE, fig.width = 8.5, fig.height = 11, fig.align = "left"}
-knitr::include_graphics("../plots/us-unemployment.png")
+knitr::include_graphics("plots/us-unemployment.png")
 ```
 <br>
 ```{r code = readLines("main.R")}
